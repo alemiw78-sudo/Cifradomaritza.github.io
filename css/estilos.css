@@ -1,0 +1,92 @@
+@font-face{
+	font-family: "titulo";
+	src: url("../font/lexend/static/Lexend-ExtraBold.ttf");
+}
+@font-face{
+	font-family: "subtitulo";
+	src: url("../font/lexend/static/Lexend-Bold.ttf");
+}
+@font-face{
+	font-family: "parrafo";
+	src: url("../font/lexend/static/Lexend-Light.ttf");
+}
+main{
+	width: 90%;
+	margin:50px auto;
+}
+section{
+	margin: 100px 0px;
+}
+img{
+	width: 100%;
+}
+.uno{
+	position: relative;
+}
+.texto{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	
+}
+h1{
+	font-family: "titulo", sans-serif;
+	font-size: 3rem;
+}
+h2{
+	font-family: "subtitulo", sans-serif;
+	font-size: 2rem;
+}
+h3{
+	font-family: "subtitulo", sans-serif;
+	font-size: 1.5rem;
+}
+p{
+	font-family: "parrafo", sans-serif;
+	font-size: 1.2rem;
+}
+input{
+	background-color: orangered;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: #fff;
+}
+.dos h2{
+	margin-left: 5%;
+}
+.dos div article{
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+}
+.limpiar{
+	clear: both;
+}
+.tres{
+	padding: 50px 0px;
+	text-align: center;
+	background-color: orangered;
+}
+.tres div article{
+	float: left;
+	width: 25%;
+	background-color: #fff;
+	margin-left: 6%;
+	border-radius: 20px;
+}
+.tres div article img{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 183px;
+}
+.tres div article div{
+	padding: 30px;
+}
+.cuatro{
+	background-color: #fff;
+}
+.cuatro div article img{
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
