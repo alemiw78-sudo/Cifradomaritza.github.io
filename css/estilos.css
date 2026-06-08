@@ -1,14 +1,14 @@
 @font-face{
 	font-family: "titulo";
-	src: url("../font/lexend/static/Lexend-ExtraBold.ttf");
+	src: url("../Lexend/static/Lexend-ExtraBold.ttf");
 }
 @font-face{
 	font-family: "subtitulo";
-	src: url("../font/lexend/static/Lexend-Bold.ttf");
+	src: url("../Lexend/static/Lexend-Bold.ttf");
 }
 @font-face{
 	font-family: "parrafo";
-	src: url("../font/lexend/static/Lexend-Light.ttf");
+	src: url("../Lexend/static/Lexend-Light.ttf");
 }
 main{
 	width: 90%;
